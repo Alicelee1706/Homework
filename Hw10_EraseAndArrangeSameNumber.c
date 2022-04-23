@@ -20,7 +20,7 @@ int main()
     
     for (i = 0; i < size; i++)
     {
-        printf("Input n%d: ", i+1);
+        printf("Input n%d: ", i);
         scanf("%d", &index[i]);
     }
     
