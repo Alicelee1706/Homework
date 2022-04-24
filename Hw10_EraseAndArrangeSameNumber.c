@@ -41,7 +41,6 @@ int main()
                     index[k] = index[k+1];
                 }
                 size--;
-                j--;
             }
         }
     }
