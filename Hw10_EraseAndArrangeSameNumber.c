@@ -55,7 +55,7 @@ int main()
             if (index[i] == index[j])
             {
                 removed++;
-                for (k = j; j < size - 1; j++)
+                for (k = j; j < size; j++)
                 {
                     index[k] = index[k+1];
                 }
