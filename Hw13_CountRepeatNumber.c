@@ -39,7 +39,7 @@ int main()
         }
         if (j == m)
         {
-            keys[m] = a[j];
+            keys[m] = a[i];
             values[m++] = 1;
         }
         else
