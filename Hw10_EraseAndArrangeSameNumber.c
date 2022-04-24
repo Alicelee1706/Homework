@@ -45,6 +45,25 @@ int main()
         }
     }
     
+    /** OR 
+    
+    int removed = 0;
+    for (i = 0; i < size - 1 - removed; i++)
+    {
+        for(j = i + 1; j < size - 1; j++)
+        {
+            if (index[i] == index[j])
+            {
+                removed++;
+                for (k = j; j < size - 1; j++)
+                {
+                    index[k] = index[k+1];
+                }
+            }
+        }
+    }
+    size-=removed;  **/
+    
     printf("\nAfter Erase Same Number: ");
     for (i = 0; i < size; i++)
     {
