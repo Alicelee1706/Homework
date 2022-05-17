@@ -198,7 +198,7 @@ int main ()
 		}
 	}
 	
-	printf("\nIs there anything else you want to do today?\n\n");
+	printf("\nIs there anything else you want to do for today?\n\n");
 	goto Begin;
 
 }
